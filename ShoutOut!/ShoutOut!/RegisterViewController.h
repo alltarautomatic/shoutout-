@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WindowsAzureMobileServices/WindowsAzureMobileServices.h>
+#import "AppDelegate.h"
 
 @interface RegisterViewController : UIViewController
-{
 
-}
+@property (weak, nonatomic) IBOutlet UITextField *email;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPassword;
+@property (weak, nonatomic) IBOutlet UITextField *userID;
+
+- (IBAction)submit:(id)sender;
 
 @end

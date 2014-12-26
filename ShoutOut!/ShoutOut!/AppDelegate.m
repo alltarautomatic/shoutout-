@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <WindowsAzureMobileServices/WindowsAzureMobileServices.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
+    
+    self.client = [MSClient clientWithApplicationURLString:@"https://chers.azure-mobile.net/"
+                                            applicationKey:@"uLnWLAucXaeapFQjBqzCCqPvpKMbrL11"];
+    
     return YES;
 }
 

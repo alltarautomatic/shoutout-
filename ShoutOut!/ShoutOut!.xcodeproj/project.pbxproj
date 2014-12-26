@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D146A40D1A4885CD00EEC3F4 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D146A40C1A4885CD00EEC3F4 /* WindowsAzureMobileServices.framework */; };
-		D146A4101A488A1100EEC3F4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D146A40F1A488A1100EEC3F4 /* LoginViewController.m */; };
 		D14F273A1A4BE007004A55DD /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F27391A4BE007004A55DD /* RegisterViewController.m */; };
 		D1B9E1071A4584140077130E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B9E1061A4584140077130E /* main.m */; };
 		D1B9E10A1A4584140077130E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B9E1091A4584140077130E /* AppDelegate.m */; };
@@ -30,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		D146A40C1A4885CD00EEC3F4 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
-		D146A40E1A488A1100EEC3F4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		D146A40F1A488A1100EEC3F4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D14F27381A4BE007004A55DD /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		D14F27391A4BE007004A55DD /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		D1B9E1011A4584140077130E /* ShoutOut!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoutOut!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +93,6 @@
 		D1B9E1031A4584140077130E /* ShoutOut! */ = {
 			isa = PBXGroup;
 			children = (
-				D146A40E1A488A1100EEC3F4 /* LoginViewController.h */,
-				D146A40F1A488A1100EEC3F4 /* LoginViewController.m */,
 				D14F27381A4BE007004A55DD /* RegisterViewController.h */,
 				D14F27391A4BE007004A55DD /* RegisterViewController.m */,
 				D1B9E1081A4584140077130E /* AppDelegate.h */,
@@ -238,7 +233,6 @@
 			files = (
 				D1B9E10A1A4584140077130E /* AppDelegate.m in Sources */,
 				D1B9E1071A4584140077130E /* main.m in Sources */,
-				D146A4101A488A1100EEC3F4 /* LoginViewController.m in Sources */,
 				D14F273A1A4BE007004A55DD /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
